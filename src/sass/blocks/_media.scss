@@ -56,17 +56,26 @@
         }
     }
     .consultation {
-        padding-left: 10px;
-        &__descr {
-            font-size: 22px;
-            text-align: center;
-        }
+        padding: 63px 0 70px 0;
+        padding-left: 0px;
         .title_left {
             font-size: 34px;
             text-align: center;
         }
+        &__descr {
+            font-size: 22px;
+            text-align: center;
+        }
         .feed-form {
+            margin-top: 28px;
             width: 100%;
+            padding: 0 20px 0 20px;
+            input {
+                height: 50px;
+                margin-bottom: 15px;
+                border: none;
+                padding: 0 20px 0 20px;
+            }
         }
     }
     .carousel {
@@ -183,6 +192,9 @@
         }
     }
     .consultation {
+        .title_left {
+            font-size: 28px;
+        }
         &__descr {
             font-size: 18px;
             text-align: center;
